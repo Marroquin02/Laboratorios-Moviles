@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Fragmentacion</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="text_name_lastname">Hola %s %s</string>
+</resources>

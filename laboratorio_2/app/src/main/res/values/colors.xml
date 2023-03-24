@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="under_weight">#37BEFD</color>
+    <color name="normal_weight">#10A308</color>
+    <color name="over_weight">#FF9800</color>
+    <color name="obese">#FF5722</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="purple_500">#101336</color>
+    <color name="purple_200">#101336</color>
+    <color name="teal_200">#101336</color>
+    <color name="purple_700">#101336</color>
+    <color name="layout">#101336</color>
+</resources>
