@@ -56,7 +56,7 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_vertical"
                     android:hint="0"
-                    android:inputType="textPersonName"
+                    android:inputType="numberDecimal"
                     android:textColorHint="#767b8e"
                     android:textSize="64dp" />
 
@@ -112,7 +112,7 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_vertical"
                     android:hint="0"
-                    android:inputType="textPersonName"
+                    android:inputType="numberDecimal"
                     android:textColorHint="#767b8e"
                     android:textSize="64dp" />
 

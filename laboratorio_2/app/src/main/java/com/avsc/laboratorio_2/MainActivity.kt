@@ -60,6 +60,10 @@ class MainActivity : AppCompatActivity() {
                 Toast.makeText(this, "Weight is empty",Toast.LENGTH_SHORT).show()
                 return false
             }
+            height.isNullOrEmpty() ->{
+                Toast.makeText(this, "Height is empty",Toast.LENGTH_SHORT).show()
+                return false
+            }
         }
         return true
     }

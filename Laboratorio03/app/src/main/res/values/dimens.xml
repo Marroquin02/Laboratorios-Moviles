@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="short_dimension">8dp</dimen>
+    <dimen name="big_text_size">32dp</dimen>
+    <dimen name="bigger_text_size">88dp</dimen>
+    <dimen name="square_image_size">100dp</dimen>
+</resources>
