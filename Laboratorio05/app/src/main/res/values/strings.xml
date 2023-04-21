@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Laboratorio-05</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="billboard">Billboard</string>
+    <string name="star_wars_episodio_3">Star Wars episodio 3: La venganza de los Sith</string>
+    <string name="calification_star_wars">9.8</string>
+    <string name="harry_potter_movie">Harry Potter y la piedra Filosofal</string>
+    <string name="calification_harry_potter">9.5</string>
+    <string name="new_movie_title">New Movie</string>
+    <string name="hint_name">Name</string>
+    <string name="hint_category">Category</string>
+    <string name="hint_description">Description</string>
+    <string name="hint_calification">Calification</string>
+    <string name="submit">submit</string>
+    <string name="star_wars_description">Tras tres años de Guerras Clon, los jedi rescatan a Palpatine del Conde Dooku. Mientras Obi-Wan persigue una nueva amenaza, Anakin actúa como agente doble entre el Consejo Jedi y Palpatine, siendo atraído por un siniestro plan.</string>
+</resources>
