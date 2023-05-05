@@ -1,4 +1,4 @@
-package com.avsc.laboratorio_05.data.model
+package com.camc.laboratorio_07.data.model
 
 data class MovieModel (
     val name: String,

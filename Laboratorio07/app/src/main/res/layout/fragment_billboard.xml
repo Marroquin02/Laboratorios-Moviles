@@ -5,43 +5,29 @@
     <data>
         <variable
             name="viewmodel"
-            type="com.avsc.laboratorio_05.ui.movie.MovieViewModel" />
+            type="com.camc.laboratorio_07.ui.movie.MovieViewModel" />
     </data>
     <FrameLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:background="@color/backroundLayout"
-        tools:context=".ui.movie.billboardFragment">
+        tools:context="com.camc.laboratorio_07.ui.movie.billboardFragment">
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent">
-
-            <Button
-                android:id="@+id/button"
-                android:layout_width="@dimen/large_gap"
-                android:layout_height="@dimen/large_gap"
-                android:layout_marginTop="@dimen/normal_gap"
-                android:background="@drawable/rounded_button"
-                app:backgroundTint="@color/white"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.498"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent"
-                tools:text="*"
-                />
 
             <TextView
                 android:id="@+id/textView2"
                 style="@style/TextAppearance.MaterialComponents.Headline4"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="@dimen/normal_gap"
+                android:layout_marginTop="32dp"
                 android:gravity="center"
                 android:text="@string/billboard"
                 android:textColor="@color/white"
                 android:textStyle="bold"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/button" />
+                app:layout_constraintTop_toTopOf="parent" />
 
 
             <com.google.android.material.floatingactionbutton.FloatingActionButton

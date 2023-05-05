@@ -1,4 +1,4 @@
-package com.avsc.laboratorio_05
+package com.camc.laboratorio_07
 
 import org.junit.Test
 

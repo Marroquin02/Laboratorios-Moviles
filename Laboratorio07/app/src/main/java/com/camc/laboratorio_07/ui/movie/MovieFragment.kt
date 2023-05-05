@@ -1,13 +1,11 @@
-package com.avsc.laboratorio_05.ui.movie
+package com.camc.laboratorio_07.ui.movie
 
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
-import com.avsc.laboratorio_05.R
-import com.avsc.laboratorio_05.databinding.FragmentMovieBinding
-import com.avsc.laboratorio_05.databinding.FragmentNewMovieBinding
+import com.camc.laboratorio_07.databinding.FragmentMovieBinding
 
 private const val ARG_PARAM1 = "param1"
 private const val ARG_PARAM2 = "param2"

@@ -1,6 +1,6 @@
-package com.avsc.laboratorio_05.data
+package com.camc.laboratorio_07.data
 
-import com.avsc.laboratorio_05.data.model.MovieModel
+import com.camc.laboratorio_07.data.model.MovieModel
 
 var movies = mutableListOf(
     MovieModel(

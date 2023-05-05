@@ -1,13 +1,13 @@
-package com.avsc.laboratorio_05.ui.movie
+package com.camc.laboratorio_07.ui.movie
 
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider.AndroidViewModelFactory.Companion.APPLICATION_KEY
 import androidx.lifecycle.viewmodel.initializer
 import androidx.lifecycle.viewmodel.viewModelFactory
-import com.avsc.laboratorio_05.MovieReviewerApplication
-import com.avsc.laboratorio_05.data.model.MovieModel
-import com.avsc.laboratorio_05.repositories.MovieRepository
+import com.camc.laboratorio_07.MovieReviewerApplication
+import com.camc.laboratorio_07.data.model.MovieModel
+import com.camc.laboratorio_07.repositories.MovieRepository
 
 class MovieViewModel(private val repository: MovieRepository): ViewModel() {
     var name = MutableLiveData("")
@@ -23,7 +23,7 @@ class MovieViewModel(private val repository: MovieRepository): ViewModel() {
             status.value = WRONG_INFORMATION
             return
         }
-        val movie =MovieModel(
+        val movie = MovieModel(
             name.value!!,
             category.value!!,
             description.value!!,

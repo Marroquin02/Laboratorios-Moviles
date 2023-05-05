@@ -6,7 +6,7 @@
     <data>
         <variable
             name="viewmodel"
-            type="com.avsc.laboratorio_05.ui.movie.MovieViewModel" />
+            type="com.camc.laboratorio_07.ui.movie.MovieViewModel" />
     </data>
 <FrameLayout
     android:layout_width="match_parent"
@@ -18,32 +18,18 @@
     android:layout_height="match_parent">
 
 
-    <Button
-        android:id="@+id/button"
-        android:layout_width="@dimen/large_gap"
-        android:layout_height="@dimen/large_gap"
-        android:layout_marginTop="@dimen/normal_gap"
-        android:background="@drawable/rounded_button"
-        app:backgroundTint="@color/white"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:text="*" />
-
     <TextView
         android:id="@+id/textView2"
         style="@style/TextAppearance.MaterialComponents.Headline4"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="@dimen/extra_gap"
         android:gravity="center"
         android:text="@string/new_movie_title"
         android:textColor="@color/white"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button" />
+        tools:layout_editor_absoluteY="96dp" />
 
     <LinearLayout
         android:id="@+id/linearLayout"

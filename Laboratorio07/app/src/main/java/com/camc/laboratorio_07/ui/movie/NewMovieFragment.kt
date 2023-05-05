@@ -1,4 +1,4 @@
-package com.avsc.laboratorio_05.ui.movie
+package com.camc.laboratorio_07.ui.movie
 
 import android.os.Bundle
 import android.util.Log
@@ -9,7 +9,7 @@ import android.widget.Button
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.activityViewModels
 import androidx.navigation.fragment.findNavController
-import com.avsc.laboratorio_05.databinding.FragmentNewMovieBinding
+import com.camc.laboratorio_07.databinding.FragmentNewMovieBinding
 
 
 /**

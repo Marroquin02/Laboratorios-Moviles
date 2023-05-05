@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace 'com.avsc.laboratorio_05'
+    namespace 'com.camc.laboratorio_07'
     compileSdk 33
 
     defaultConfig {
-        applicationId 'com.camc.laboratorio_05'
+        applicationId 'com.camc.laboratorio_07'
         minSdk 24
         targetSdk 33
         versionCode 1
@@ -21,6 +21,7 @@ android {
         release {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+            applicationIdSuffix 'camc'
         }
     }
     compileOptions {

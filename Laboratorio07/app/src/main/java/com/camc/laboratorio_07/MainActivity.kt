@@ -1,12 +1,8 @@
-package com.avsc.laboratorio_05
+package com.camc.laboratorio_07
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.view.LayoutInflater
-import android.view.View
-import android.view.ViewGroup
-import com.avsc.laboratorio_05.databinding.ActivityMainBinding
-import com.avsc.laboratorio_05.databinding.FragmentNewMovieBinding
+import com.camc.laboratorio_07.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
     private lateinit var binding : ActivityMainBinding

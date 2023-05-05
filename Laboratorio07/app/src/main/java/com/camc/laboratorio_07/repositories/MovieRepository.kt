@@ -1,7 +1,7 @@
-package com.avsc.laboratorio_05.repositories
+package com.camc.laboratorio_07.repositories
 
 
-import com.avsc.laboratorio_05.data.model.MovieModel
+import com.camc.laboratorio_07.data.model.MovieModel
 
 
 class MovieRepository(private val movies: MutableList<MovieModel>) {
